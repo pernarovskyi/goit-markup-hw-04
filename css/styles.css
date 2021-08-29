@@ -332,6 +332,7 @@ a {
 .duties-item:not(:last-child) {
   margin-right: 30px;
 }
+
 /*---------------------- Our team ----------------------*/
 
 .team {
@@ -411,6 +412,7 @@ a {
 .link-socials:focus .social-icon {
   fill: #ffffff;
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 .socials-item {
@@ -433,7 +435,7 @@ a {
 }
 
 .client-link {
-  padding: 16px 32px;
+  padding: 15px 30px;
   align-items: center;
   justify-content: center;
   border: 1px solid #afb1b8;
@@ -510,7 +512,6 @@ a {
   display: flex;
   width: 44px;
   height: 44px;
-  fill: #ffffff;
 }
 
 .footer-social-item:not(:last-child) {
@@ -522,6 +523,7 @@ a {
 }
 
 .footer-social-title {
+  margin-top: 10px;
   margin-bottom: 20px;
 
   font-weight: 700;
@@ -542,6 +544,10 @@ a {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   cursor: pointer;
+}
+
+.footer-social-icon {
+  fill: #ffffff;
 }
 
 .footer-social-link:hover,
